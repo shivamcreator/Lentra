@@ -1,0 +1,81 @@
+
+.accordian-content{
+  display: none;
+}
+
+.accordian .accordian-content.active{
+	display: block;
+}
+.accordian .acc-btn{
+  width:100%;
+  border:none;
+  justify-content: space-between;
+  background-color: #eeeeee;
+}
+.acc-btn:focus{
+  outline: none;
+}
+
+.accordian .acc-block{
+  border:1px solid #959595;
+  margin:15px 0px;
+  padding:10px;
+}
+
+.acc-block p{
+  width: 90%!important;
+}
+.icon-acc{
+  padding:8px;
+}
+
+#mbx-features .block{
+	background-color: #fff;
+	width: 250px;
+	border: 1px solid #dedede;
+}
+
+#mbx-features .block-img{
+    min-height: 170px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+  .mbx-graph{
+   width: 90%;
+   height: 100%;
+}
+.mbx-graph-mob{
+  width: 70%;
+  height: 70%;
+}
+
+
+
+.read-more-button{
+  background-color: #d2343a;
+    color: #ffffff;
+    border: 2px solid #d2343a;
+    padding: 13px 27px;
+    width: 220px;
+}
+
+
+@media (max-width:768px){
+  .acc-block p{
+    width: 100%!important;
+  }
+  .icon-acc{
+    padding:0;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1300px) {
+  .w-ipad-90{
+    width: 90%;
+
+  }
+}

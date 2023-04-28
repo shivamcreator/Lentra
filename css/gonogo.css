@@ -1,0 +1,199 @@
+#lobs .tab {
+  /* float: left; */
+  border-right: 1px solid #b4b4b4;
+  width: 30%;
+  /* height: 300px; */
+}
+#lobs button{
+  font-family: "Montserrat-Regular";
+}
+
+#lobs #two{
+  margin-top: -1px;
+}
+
+/* Style the buttons inside the tab */
+#lobs .tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 35px 0  35px 60px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size:25px;
+}
+
+/* Change background color of buttons on hover */
+#lobs .tab button:hover {
+  /* background-color: #ddd; */
+}
+#lobs .tablinks {
+  position: relative;
+  border-bottom: 1px solid #b4b4b4 !important;
+}
+#lobs .tablinks.active {
+  color: #d2343a;
+}
+
+#lobs .tablinks.active:after {
+  content: "";
+  position: absolute;
+  left: 100%;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #d2343a;
+}
+/* #lobs .owl-nav .owl-prev {
+  top: 40%;
+  position: absolute;
+  right: 70%;
+}
+#lobs .owl-nav .owl-next {
+  top: 40%;
+  position: absolute;
+  left: 70%;
+}
+#lobs .owl-nav svg {
+  height: 20px;
+} */
+.icon-acc{
+  font-size: 32px;
+  float: right;
+  margin-top: -10px;
+}
+
+
+
+#lobs .tabcontent{
+  width:60%;
+  margin-left:10%;
+}
+
+#lobs .tabcontent .active{
+  display: block;
+}
+
+
+
+/* customer segments starts here */
+#cust-segments .yellow-title-gradient {
+  background: linear-gradient(to right, #ffcc31 0%, #193665 110%);
+}
+
+/* customer segments ends here */
+.cust-text{
+  max-width: 250px;
+}
+
+
+
+
+#gonogo-tech .owl-stage{
+  display: flex;
+}
+
+#gonogo-tech .block{
+  height:100%;
+  width:175px;
+  margin:auto
+}
+#gonogo-tech .block-img{
+  height:75%;
+  padding:30px 0px;
+  background: #fff;
+  position: relative;
+}
+.block-img p{
+  position: absolute; 
+  font-family: "Montserrat-Semibold";
+  top:45%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+#gonogo-tech .block-text{
+  height:25%;
+  font-size: 14px;
+  padding:5px 3px
+}
+#gonogo-tech {
+  width:80%
+}
+
+#gonogo-tech .owl-dots{
+  margin-top:20px!important;
+}
+.owl-dots .owl-dot.active span{
+  background: #193665!important ;
+}
+.owl-dots .owl-dot span{
+  background: #fff!important ;
+}
+
+
+
+@media (max-width:991px){
+  #gonogo-tech {
+    width:auto
+  }
+
+  #cust-segments .left-icons>div,#cust-segments .right-icons>div {
+    width:50%;
+    padding:20px
+  
+  }
+  #lobs .tabcontent{
+    margin-left: 0;
+    width:100%;;
+    text-align: center;
+  }
+  .accordian-content p{
+    /* text-align: center; */
+  }
+  #lobs .accordian-content{
+    display: none;
+    margin:auto;
+    padding:10px;
+  }
+  .lobs-accordian, .accordian{
+    display: block;
+    color: #d2343a;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    /* cursor: pointer; */
+    /* transition: 0.3s; */
+    /* font-size: 17px; */
+    height:50px;
+    background: transparent;
+    border:1px  solid #959595;
+    border-left: 0;
+    border-right: 0;
+  }
+  .lobs-accordian:focus, .accordian:focus{
+    outline: none;
+    box-shadow: none;
+  }
+
+
+}
+
+@media (max-width:992px) and (min-width:768px){
+  .accordian{
+    width:100%;
+    border:1px  solid #231f20!important;
+
+  }
+}
+
+@media (max-width:600px){
+  #lobs .col4{
+    width:50%
+  }
+}
+

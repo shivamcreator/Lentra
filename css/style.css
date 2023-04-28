@@ -1,0 +1,952 @@
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	width: 100%;;
+	box-sizing: border-box;
+	/* background-color: #eee; */
+}
+
+.bold{
+	font-family: "Montserrat";
+
+}
+
+/* Typography css start ------------------ */
+
+
+
+h1 {
+	font-size: 40px;
+	font-family: "Aero-Bold";
+}
+
+h2 {
+	font-size: 40px;
+	font-family:"Aero-Bold";
+	color: #231f20;
+ }
+
+ h3{
+
+	font-size: 30px;
+	color: #231f20;
+	font-family: "Aero-Bold";
+
+ }
+
+
+/* Typography css end ------------------ */
+
+
+
+
+
+
+ /* button css start-------- */
+
+ .button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 0px 10px;
+	cursor: pointer;
+	font-family: "Montserrat-SemiBold";
+  }
+
+
+  .button1 {
+	background-color: white;
+	color: #000000;
+	border: 2px solid #000000;
+	padding: 10px 24px;
+	margin: 0px;
+  }
+
+  .button2 {
+	background-color: #d2343a;
+	color: #ffffff;
+	border: 2px solid #d2343a;
+	padding: 13px 27px;
+  }
+
+  .button3 {
+	background-color: #d2343a;
+	color: #ffffff;
+	border: 2px solid #d2343a;
+	padding: 14px 30px;
+  }
+
+  .button4 {
+	background-color: #ffffff;
+	color: #000000;
+	border: 2px solid #000000;
+	padding: 14px 65px;
+  }
+
+
+
+
+ /* button css start--------  end*/
+
+
+
+
+ 
+header{
+	margin:0;
+	width: 100%;
+	background: #fff;
+	box-sizing: border-box;
+	display: flex;
+	padding:10px 100px;
+	box-shadow: 0px 12px 38px -32px  black;
+
+}
+
+
+header .logo{
+	
+	color:  #000;
+	height: 50px;
+	line-height: 50px;
+	font-size: 40px;
+	flex:2;
+}
+
+
+header nav {
+	flex:1;
+		
+}
+
+
+header nav ul li{
+	list-style-type: none;
+	
+}
+
+
+
+
+header nav ul li a{
+	height: 50px;
+	line-height:50px;	
+	color:#193665;
+	text-decoration:none;
+	padding-bottom:10px;
+	font-family: "Montserrat-Regular";
+	width:100%;
+
+}
+
+/* header nav  a:hover{
+	border-bottom: 10px solid transparent;
+    border-image: linear-gradient(to right, #d23339 0%, #fff 100%);
+    border-image-slice: 1;
+} */
+
+.toggle-icon{
+	align-self: center;
+	padding-right:20px;
+	position: absolute;
+	right:0
+}
+
+
+
+.menu-toggle{
+	color:#000;
+	float: right;
+	display: none;
+	line-height: 50px;
+	font-size: 36px;
+	cursor: pointer;
+	
+}
+
+.menu-close{
+	height:35px;
+	width:35px;
+}
+
+
+
+
+
+/* Hero section CSS  start*/
+
+.hero-section-headline3{
+
+	width: 65%;
+
+}
+#hero-section .container{
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+
+.line{
+	height: 7px;
+}
+
+
+.line-animation_blue{
+	border-bottom: 10px solid transparent;
+    border-image: linear-gradient(to left, #193665 0%, #fff 100%);
+	border-image-slice: 1;
+	animation: move_blue 1s linear infinite;
+	animation-duration: 10s;	
+	animation-delay: 0s;
+	width: 945px;
+	}
+
+.line-animation_red{
+		border-bottom: 10px solid transparent;
+		border-image: linear-gradient(to right, #d23339 0%, #fff 100%);
+		border-image-slice: 1;
+		animation: move_red 1s linear infinite;
+		animation-duration: 10s;	
+		animation-delay: 0s;
+		width: 945px;
+		float: right;
+		}
+
+.line-animation_yellow{
+			border-bottom: 10px solid transparent;
+			border-image: linear-gradient(to left, #ffcc31 0%, #fff 100%);
+			border-image-slice: 1;
+			animation: move_yellow 1s linear infinite;
+			animation-duration: 10s;	
+			animation-delay: 0s;
+			width: 945px;
+			}
+
+@keyframes move_blue {
+	0%   {
+		transform: translateX(-120%);
+	}
+	100%   {
+		transform: translateX(170%);
+	}
+  }
+
+  @keyframes move_red {
+	0%   {
+		transform: translateX(120%);
+	}
+	100%   {
+		transform: translateX(-170%);
+	}
+  }
+
+  @keyframes move_yellow {
+	0%   {
+		transform: translateX(-100%);
+	}
+	100%   {
+		transform: translateX(200%);
+	}
+  }
+
+  
+
+ /* Hero section CSS  End*/
+
+
+
+
+
+/* Ecosystem design start from here  */
+
+ #ecosystem {
+	 box-sizing: border-box;
+ 
+ }
+
+
+
+
+ .ecosystem-title-gradient{
+	 width: 85px;
+	/* border-bottom: 10px solid transparent; */
+    background: linear-gradient(to right, #d23339 0%, #fff 110%);
+	/* border-image-slice: 1; */
+	margin:auto;
+	/* padding-top:8px; */
+	height: 8px		;
+ }
+
+ .yellow-title-gradient {
+	width: 85px;
+	background: linear-gradient(to right, #ffcc31 0%, #fff 110%);
+	margin: auto;
+	height: 8px;
+ }
+
+
+
+
+
+
+
+ #ecosystem-terminology .loan-custmor-copy{
+	padding: 8px 11px;
+
+ }
+
+
+.icon {
+  fill: url(#icon-gradient) #447799;
+  width: 45px;
+  height: 45px;
+}
+
+.icon-kyc{
+	height: 79px;
+	width: 79px;
+}
+
+#gonono-structure{
+	height: 300px;
+}
+
+
+.gonogo-logo {
+	flex-direction: row;
+	align-items: center;
+}
+.gonogo-center-img{
+	width: 178px;;
+}
+
+.gonogo-center-img-mob{
+	width: 100%;
+}
+
+.arrows{
+	fill: #929394;
+	width: 	53px;
+}
+
+.ecosysterm-footer-icon{
+	padding:10px 40px;
+	border-right:1px solid #193665;
+}
+
+.ecosysterm-footer-icon-mob{
+	padding:10px 40px;
+
+}
+
+#gonono-structure-mob .left-icons{
+	border-right:1px solid #193665;
+		
+}
+#gonono-structure-mob .account-agg{
+	border-bottom:1px solid #193665;
+		
+}
+
+#gonono-structure-mob .third-party{
+	border-bottom:1px solid #193665;
+		
+}
+
+
+.curve-arrow{
+	width: 100%;
+	height: 100%;
+	padding-left: 50px;
+	padding-right: 50px;
+	margin-bottom: 50px;
+}
+/* .curve-arrow-mob{
+	width: 219px;
+} */
+
+.api-icon{
+	position: relative;
+}
+
+.svg-txt{
+	position: absolute;
+	top: 25%;
+}
+
+
+
+
+/* Ecosystem design end  here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* about lentra */
+#about-lentra .block{
+	background-color: #fff;
+	margin:10px;
+	width:250px;
+	max-height: 200px;
+}
+#about-lentra .block svg{
+	padding:20px;
+}
+#about-lentra .block-center{
+   margin-top:30px;
+   margin-bottom:30px;
+}
+
+#clients-partners .block{
+		width:350px;
+		margin:17px 20px;
+		border: 1px solid gray;
+}
+
+.ecosystem-title-gradient-about{
+   border-bottom: 10px solid transparent;
+   background:  linear-gradient(to right, #fdc532 0%,#da4f38 22%,#da4f38 49%,#c1333d 69%,#1c3664 100%);
+   border-image-slice: 1;
+   margin:auto;
+   height: 17px;
+}
+
+/* about lentra ends here*/
+
+
+
+/* map section */
+.address-block{
+	max-width:365px
+}
+
+.map-sec{
+	align-items: flex-start;
+}
+
+#map-section iframe{
+	width:560px;
+	height:250px;
+	margin-top: 40px;
+}
+
+
+
+
+.footer-copyright{
+	height: 35px;
+	padding: 10px;
+	background: linear-gradient(to right, rgb(255,169,0) 2%,rgb(248,120,22) 28%,rgb(221,25,51) 62%,rgb(34,53,101) 100%);
+}
+
+
+
+
+
+
+
+/* about us page start*/
+
+.image-box{
+  height:200px;
+  width:250px;
+  position: relative;
+}
+.centered-x-y{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left:0;
+  right: 0;
+  margin: auto;
+  width: 90%;
+}
+
+
+/* about us page css ends here*/
+
+
+
+
+
+
+
+/* GonoGO product page css start */
+
+
+#features-advantages .block{
+    background-color: #fff;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 350px;
+    /* max-height: 200px; */
+}
+
+
+#features-advantages-mob .block{
+    background-color: #fff;
+    margin: 20px;
+    width: 275px;
+    /* max-height: 200px; */
+}
+
+#features-advantages .block svg{
+	padding:40px;
+}
+
+
+#features-advantages-mob .block svg{
+	padding:40px;
+}
+
+.support-title-gradient{
+	width: 85px;
+  	background: linear-gradient(to right, #ffcc31 0%, #193665 110%);
+    margin:auto;
+   	height: 10px;
+}
+
+
+#gonogo-technology .block{
+	/* background-color: #fff;
+	margin:10px;
+	width:250px;
+	max-height: 200px; */
+}
+#gonogo-technology .block svg{
+	/* width: 58px;
+	height: 58px; */
+}
+
+
+
+/* GonoGO product page css end here */
+
+
+
+/* media query start */
+
+@media ( max-width:1330px) and (min-width:932px){
+		.hero-section-headline1 {
+			width: 75% !important;
+		}
+		.hero-section-headline2 {
+			width: 75% !important;
+		}
+		.hero-section-headline3 {
+			width: 75% !important;
+		}
+		#ecosystem .main-mid-sec{
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+}
+
+@media ( max-width:931px) and (min-width:768px){
+	.hero-section-headline1 {
+		width: 95% !important;
+	}
+	.hero-section-headline2 {
+		width: 95% !important;
+	}
+	.hero-section-headline3 {
+		width: 95% !important;
+	}
+
+
+}
+
+
+@media ( max-width:992px){
+	
+
+	.menu-toggle{
+		display: block;
+			
+	}
+	header{
+		padding:10px 30px;
+		position: fixed;
+		top:0;
+		z-index:9999;
+		box-shadow: 0px 12px 38px -32px  black;
+		
+	}
+	
+	header nav {
+
+		
+		display: none;
+		position: fixed;
+		width: 100%;
+		height:100%;
+		background-color:rgba(255,255,255,0.8)!important;
+	/*		height: calc(100vh - 213px);*/
+		top:68px;
+		left:0px;	
+	}
+	.shadow{
+		width: 100%;
+		height:10px;
+		box-shadow: 0px 5px 5px #eee;
+		background-color: #fff;
+		position:relative;
+    z-index:2;
+}
+/* header nav a:focus{
+	border-bottom: 1px solid #eee;
+} */
+
+	
+	
+	header nav.active{
+		display: block;
+		z-index: 2;
+	}
+	
+	
+	header nav ul{
+
+		display: block;
+		text-align: center;
+		box-shadow: 0px 12px 38px -32px  black;
+		background-color: #fff;
+		padding-top:20px!important;
+
+	}
+	
+	header nav ul li {
+		border-bottom: 1px solid #eee;
+		text-align: left;
+    background-color: #fff;
+	}
+	header nav .show {display: block!important;}
+  header nav .dropdown-content {
+		display: none;
+		
+	}
+	header nav .dropdown-content a{
+		display: block;
+		padding-left: 50px;
+	}
+	header nav a:hover {
+    /* border-bottom: 10px solid transparent; */
+    border-image: none;
+}
+header nav  li a{
+  padding-left: 30px;
+}
+	.address-block{
+		width:85%;
+		margin:auto
+	}
+	#map-section iframe{
+		width:85%;
+		height:250px;
+		margin-top: 0px;
+		max-width: 365px;
+	}
+
+	#about-lentra .about-lentra-cta{
+		padding-top: 20px;
+		padding-bottom: 70px;
+	}
+
+
+	.underline:hover::after{
+		height:0!important;
+		}
+
+
+
+	.underline:hover::after{
+		height:0!important;
+	}
+
+	.feature-carousel-hide{
+		display: none;
+	}
+	#features-advantages-mob{
+		display: block;
+	}
+}
+
+
+@media (max-width:768px){
+
+	h1{
+		font-size: 25px;
+
+	}
+	h2{
+		font-size: 25px;
+
+	}
+	.about .heading1{
+		text-align: right;
+	}
+
+	.curve{
+		border-bottom-left-radius: 35% 75px!important;
+	
+	}
+	.curve-two{
+		border-top-right-radius: 25% 20px!important;
+	}
+	/* .curve-arrow{
+		width: 300px;
+		padding-right: 0px;
+		padding-left:0px;
+
+	} */
+
+	#gonono-structure{
+		display: none;
+	}
+    #ecosystem-footer-section{
+		display: none;
+	}
+
+	#gonono-structure-mob{
+		display: block;
+	}
+
+
+	.hero-section-headline1{
+		width: 90% !important;
+		float: right;
+		padding-right: 10px !important;
+	}
+	.hero-section-headline2{
+		width: 90% !important;
+		padding-left: 10px !important;
+		float: left;
+
+	}
+
+	.hero-section-headline3{
+		width: 90% !important;
+		float: right;
+		padding-right: 10px !important;
+	}
+	#hero-section .container{
+		padding-top: 105px;
+		padding-bottom: 70px;
+	}
+
+	#clients-partners .block{
+		width:300px;
+	}
+
+	#about-lentra .about-lentra-content{
+		padding-top: 70px;
+		padding-bottom: 30px;
+	}
+}
+
+
+
+
+
+
+
+/* @media (min-width:993px){
+
+	#gonono-structure-mob{
+		display: none !important;
+	}
+} */
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:520px) and (min-width:360px){
+	/* .curve-arrow{
+		width: 200px;
+		padding-right: 0px;
+		padding-left:0px;
+
+	} */
+}
+
+
+@media ( max-width:564px){
+
+	#ecosystem .main-mid-sec{
+		padding-left: 20px;
+		padding-right: 20px;
+
+	}
+}
+
+
+
+/* owl-carousel starts here*/
+
+#owl-carousel .owl-nav svg{
+	width:56px;
+	height:56px
+}
+
+#owl-carousel p{
+	font-family:  "Montserrat-SemiBold";
+	font-size: 14px;
+}
+#digi-loan #owl-carousel{
+	margin:auto;
+  position: relative;
+}
+/* .owl-item{
+	max-width:160px
+} */
+#owl-carousel .owl-item{
+	text-align: center;
+}
+#digi-loan #owl-carousel .owl-item svg {
+
+	width:120px;
+	height: 120px;
+	padding:30px;
+	background-color: white;
+	stroke-width: 5px;
+}
+.owl-stage{
+	max-width: max-content;
+}
+
+#digi-loan .owl-nav .owl-prev{
+	top: 38%;
+    position: absolute;
+    left: -8%;
+}
+#digi-loan .owl-nav .owl-next{
+	top: 38%;
+    position: absolute;
+    right: -8%;
+}
+
+/* .owl-item{
+	max-width:160px!important
+} */
+.owl-dots button:focus , .owl-nav button:focus{
+	outline: none;
+}
+
+.owl-theme .owl-nav button:hover{
+	background: none!important;
+}
+.owl-carousel .fa-angle-left ,.owl-carousel .fa-angle-right{
+	font-size: 48px;
+}
+
+#hero-section ,#clients-partners{
+	background: #eee;
+
+}
+.curve{
+	border-bottom-left-radius: 23% 175px;
+
+}
+.curve-two{
+	border-top-right-radius: 17% 40px;
+}
+
+/* owl-carousel ends here*/
+
+
+@media(max-width: 640px) and (min-width: 350px){
+
+	#digi-loan .owl-carousel svg {
+		height:80px;
+		width:80px;
+	}
+
+	#digi-loan #owl-carousel{
+		width:100%;
+	}
+	.owl-carousel .owl-dots{
+		margin-top:40px!important;
+	}
+
+	#owl-carousel-mob  .owl-dots{
+		margin-top:0px!important;
+		}
+
+
+
+	
+	.owl-carousel .owl-item  .m-hide{
+		display:block;
+	}
+	.owl-carousel .owl-item .m-show{
+		display:none !important;
+	}
+	
+	
+}
+.underline{
+	position:relative;
+}
+
+.underline:hover::after{
+	content:'';
+	position: absolute;
+	top:100%;
+	left:0;
+	height:10px;
+	width:100%;
+	max-width:85px;
+	/* border-bottom: 10px solid transparent; */
+	background: linear-gradient(to right, #d23339 0%, #fff 110%);
+
+}
+
+
+
+@media(min-width: 992px){
+
+
+	#about-lentra .block-container{
+		position: absolute;
+		bottom:-37%;
+		left:50%;
+		transform: translate(-50%);
+	}
+	.address-block{
+		width:365px
+	}
+
+	/* .curve{
+		width:100%;
+		height:40px;
+		border-top-right-radius: 27% 232px;
+	} */
+}
+
